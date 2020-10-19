@@ -1,0 +1,10 @@
+form{
+    border: 2px solid gray;
+    padding: 20px;
+}
+.about{
+    width: 300px;
+}
+#textarea{
+    width: 500px;
+}

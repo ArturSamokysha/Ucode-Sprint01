@@ -1,0 +1,33 @@
+a[href*="www"] {
+    color: green;
+}
+a[href*="freecodecamp"]:after {
+    content: "\21D2";
+    color: coral;
+}   
+
+a[href*="https"]:before{
+    content: "\00BB";
+    padding-right: 10px;
+}
+
+a[href*="nginx"]:before{
+    content: "\00D7";
+    padding-right: 10px;
+    color: red;
+}
+a[href*="test"]:before{
+    content: "\00D7";
+    padding-right: 10px;
+    color: red;
+}
+a[href*="schema"]:after{
+    content: "\21D2";
+    color: coral;
+}
+
+a[href*="schema"]:hover::after{
+    content: "...last symbol is 'a'";
+    color: coral;
+    font-style: italic;
+}

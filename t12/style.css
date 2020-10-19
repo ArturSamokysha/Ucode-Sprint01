@@ -1,0 +1,53 @@
+body {
+    margin: 25px;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+.box {
+    position: relative;
+    width: calc(100vw - 200px);
+    background: lightgray;
+    padding-left: 10px;
+    line-height: 51px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.box:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -25px;
+    height: 49px;
+    width: calc(100vw - 151px);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.box:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100vw - 201px);
+    top: -25px;
+    left: 0;
+    height: 100px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

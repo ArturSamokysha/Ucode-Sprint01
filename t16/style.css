@@ -1,0 +1,60 @@
+.menu *{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu ul, .menu ol{
+    list-style: none;
+}
+
+.menu > ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.menu > ul li a{
+    display: block;
+    background-color: gray;
+    padding: 15px 50px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu > ul li{
+    position: relative;
+}
+
+.menu > ul li:last-child{
+    border-right: none;
+}
+.menu li a:hover{
+    background: rgb(180, 176, 176);
+    transition: all 0.5s ease;
+}
+
+
+/* sub-menu */
+
+.menu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+.menu li > ul li ul{
+    position: absolute;
+    right: -150px;
+    top: 2px;
+    background-color: gray;
+}  
+
+.menu li:hover > ul{
+    display: block;
+} 
+
+.menu li > ul li a{
+    font-size: 14px;
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handbook</title>
+    <link rel="stylesheet" href="../t17/style.css">
+</head>
+<body>
+<h1>Handbook</h1>
+        <div class="topics">
+        <div class="topic">
+                <h3>HTML</h3>
+                <p>
+                        <a href="#a">Ссылка</a><br>
+                        <a href="#br">Перенос строки</a><br>
+                        <a href="#body">Тело документа</a><br>
+                        <a href="#button">Кнопка</a><br>
+                        <a href="#img">Изображение</a><br>
+                        <a href="#meta">Мета данные</a><br>
+                        <a href="#h">Заголовок</a><br>
+                        <a href="#t">Таблица</a><br>
+                        <a href="q">Цитата</a><br>
+                        <a href="div">Контейнер</a><br>
+                </p>
+        </div>
+            
+        <div class="topic">
+                <h3>CSS</h3>
+                <p>
+                        <a href="#bgc">Цвет фона</a><br>
+                        <a href="#bor">Граница</a><br>
+                        <a href="#fsize">Размер шрифта</a><br>
+                        <a href="#ff">Тип шрифта</a><br>
+                        <a href="#fstyle">Стиль шрифта</a><br>
+                        <a href="#m">Отступ</a><br>
+                        <a href="#ml">Отступ слева</a><br>
+                        <a href="#mr">Отступ справа</a><br>
+                        <a href="#mt">Верхний отступ</a><br>
+                        <a href="#mb">Нижний отступ</a><br>
+                </p>
+        </div>
+
+        <div class="topic">
+                <h3>Protocols</h3>
+                <p>
+                        <a href="#http">http/https</a><br>
+                        <a href="#dns">DNS</a><br>
+                        <a href="#ip">IP</a><br>
+                </p>
+        </div>
+        </div>
+
+        <h2>HTML</h2>
+        <div class="subtopic">
+                <p id="a" class="sub-html">Ccылка - cоздаёт ссылку на другой документ или закладку в текущем документе<br> &lta href = ""http://ruseller.com""&gt </p>
+                <p id="br" class="sub-html">Перенос строки<br>&ltbr&gt</p>
+                <p id="body" class="sub-html">Тело документа - содержит весь контент докуметна<br>&ltbody&gt</p>
+                <p id="button" class="sub-html">Кнопка<br> &ltbutton&gt<br> <button>Кнопка</button> </p>
+                <p id="img" class="sub-html">Изображение - добавляет изображение на страницу<br>&ltimg src="angry.gif" alt="Angry face" /&gt<br><img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-select-2019-family?wid=882&amp;hei=1058&amp;fmt=jpeg&amp;qlt=80&amp;op_usm=0.5,0.5&amp;.v=1567022175704"> </p>
+                <p id="meta" class="sub-html">Мета - предоставляет информацию про документ HTML<br> &ltmeta&gt</p>
+                <p id="h" class="sub-html">Заголовок - используются для определения заголовков<br> &lth1&gt - &lth6&gt<br> <span>Заголовок</span> </p>
+                <p id="t" class="sub-html">Таблица - тег для создания таблиц<br> &lttable&gt <br> <img class="img-table" src="http://htmlbook.ru/files/images/samhtml/fig_1_12_9.png"></p>
+                <p id="q" class="sub-html">Цитата - тег добавляет цитату <br> &ltq&gt <br> <q>Цитата</q></p>
+                <p id="div" class="sub-html">Контейнер - добавляет контейнер для элементов <br> &ltdiv&gt</p>
+        </div> 
+        
+        <h2>CSS</h2>
+        <div class="subtopic">
+                <p id="bgc" class="sub-html"><br>Цвет фона <br> .selector{background-color: red;}<br> <span class="red">Span</span> </p>
+                <p id="bor" class="sub-html">Граница - создание границ элемента <br> .selector{border: 1px solid red;} <br> <span class="border-span">Span</span></p>
+                <p id="fsize" class="sub-html">Размер шрифта <br> .selector{font-size: 10px} <br> <span class="font-size">Span</span></p>
+                <p id="ff" class="sub-html">Тип шрифта <br> .selector{font-family: "Verdana, Geneva, Tahoma, sans-serif;} <br> <span class="span-fam">Span</span></p>
+                <p id="fstyle" class="sub-html">Стиль шрифта <br> .selector{font-style: italic} <br> <span class="fstyle">Span</span></p>
+                <p id="m" class="sub-html">Отступ со всех сторон <br> .selector{margin: 25px}<br> <span class="spanm">Span</span></p>
+                <p id="ml" class="sub-html">Отступ слева<br> .selector{margin-left: 50px}<br> <span class="spanml">Span</span></p>
+                <p id="mr" class="sub-html">Отступ справа<br>.selector{margin-right: 50px}<br> <span>Span</span> </p>
+                <p id="mt" class="sub-html">Отступ сверху <br> .selector{margin-top: 50px} <br> <span class="spanmt">Span</span></p>
+                <p id="mb" class="sub-html">Отступ снизу <br>.selector{margin-bottom: 50px}<br> <span>Span</span> </p>   
+        </div>
+
+        <h2>Protocols</h2>
+        <div class="subtopic">
+                <p id="http"class="sub-html">http/https - широко распространённый протокол передачи данных, изначально предназначенный для передачи гипертекстовых документов</p>
+                <p id="dns" class="sub-html">DNS - это компьютерная четко распределенная система для получения информации о состоянии домена</p>
+                <p id="ip" class="sub-html">IP - маршрутизируемый протокол сетевого уровня стека TCP/IP</p>
+        </div>
+</body>
+</html>

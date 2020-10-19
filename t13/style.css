@@ -1,0 +1,13 @@
+img{
+    float: left;
+    margin: 10px;
+}
+
+@media print{
+    img{
+        width: 400px;
+        float: none;
+    }
+}
+
+

@@ -1,0 +1,38 @@
+.content{
+    border: 5px solid black;
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border: 1px solid blue;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: blue_circle;
+    position: relative;
+    animation: blue_circle 5s ease-in-out infinite alternate;
+}
+
+@keyframes blue_circle{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 500px;
+    }
+}
+
+.circle:hover{
+    background-color: red;
+    border: red;
+    transition: 2s;
+}

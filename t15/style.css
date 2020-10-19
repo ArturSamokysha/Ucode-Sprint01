@@ -1,0 +1,38 @@
+body{
+    float: none;
+}
+.gauntlet{
+    width: 100px;
+}
+
+img{
+    width: 30px;
+}
+.row1, .row2, .row3, .row4, .row5{
+    display: inline;
+}
+
+.gauntlet:hover ~ .row1 img:nth-child(2n+1){
+    opacity: 0;
+}
+
+.gauntlet:hover ~ .row3 img:nth-child(2n+1){
+    opacity: 0;
+}
+
+.gauntlet:hover ~ .row5 img:nth-child(2n+1){
+    opacity: 0;
+}
+
+
+.gauntlet:hover ~ .row2 img:nth-child(2n){
+    opacity: 0;
+}
+
+.gauntlet:hover ~ .row4 img:nth-child(2n){
+    opacity: 0;
+}
+
+    
+
+

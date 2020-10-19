@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="form" content="form">
+    <title>Form</title>
+    <link rel="stylesheet" href="../t09/style.css">
+</head>
+<body>
+    <h1>Superhero Form</h1>
+    <form action="">
+     <fieldset>
+         <legend>About the Superhero</legend>
+            <p>
+                Real Name
+                <input type="text" placeholder="Superhero real name">
+            
+                Superhero Name
+                <input type="text" placeholder="Superhero alias">
+
+                Age
+                <input type="text">
+            </p>
+            
+            <p>
+                About
+                <textarea cols="60" name="" id="" cols="30" rows="5" placeholder="Information about the superhero, max 500 symbols"></textarea>
+            </p> 
+
+            <p>
+                Photo:
+                <button type="button"> Choose file </button>
+                <small>No file chosen</small>
+            </p>
+    </fieldset>   
+
+    <fieldset>
+        <legend>Powers</legend>
+            <p>
+                <input type="checkbox"> Telekinesis 
+                <input type="checkbox"> Super strenght or speed
+                <input type="checkbox"> Shapeshifting
+                <input type="checkbox"> Flight
+                <input type="checkbox"> Elemental control
+                <input type="checkbox"> Other
+            </p>
+            <p>
+                Level of control: <input type="range" max="10" min="1" step="1" value="1">
+            </p>
+    </fieldset>
+    <fieldset>
+        <legend>Origin of Powers</legend>
+        <p>
+            <input type="radio" name="name"> Unknown
+            <input type="radio" name="name"> Freak lab accident
+            <input type="radio" name="name"> Chosen by an ancient wise being
+            <input type="radio" name="name"> The superhero is not human
+            <input type="radio" name="name"> Other
+        </p>
+    </fieldset>
+    <p>
+    <button type="reset">CLEAR</button>
+    <button type="reset">SEND</button>
+    </p> 
+      
+    </form>
+</body>
+</html>

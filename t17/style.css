@@ -1,0 +1,130 @@
+/* body{
+    justify-content: space-between;
+} */
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: gray;
+}
+.topic{
+    border: 1px solid black;
+    width: 200px;
+    margin: 10px;
+}
+.topics{
+    display: flex;
+    flex-wrap: wrap;
+}   
+p{
+    margin-left: 10px;
+    width: 200px;
+       
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+    .subtopic{
+        display: flex;
+        flex-wrap: wrap;
+}
+
+
+.sub-html{
+    border: 1px solid black;
+    
+}
+img{
+    width: 70px;
+    margin-left: 60px;
+}
+span{
+    font-size: 25px;
+    font-family: normal, bold;
+}
+
+.img-table{
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.red{
+    background-color: red;
+    margin-left: 5px;
+}
+.border-span{
+    border: 1px solid red;
+    margin-left: 5px;
+}
+.font-size{
+    font-size: 10px;
+}
+.span-fam{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+}
+.fstyle{
+    font-style: italic;
+}
+.spanm{
+    margin: 25px;
+}
+.spanml{
+    margin-left: 50px;
+}
+.spanmt{
+    margin-top: 25px;
+}
+
+@media sreen(max-width: 1024px){
+    width: 100%;
+}
+
+@media sreen(max-width: 768px){
+    width: 50%;
+}
+
+@media sreen(max-width: 320px){
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    justify-content: space-evenly;
+}
+.subtopic{
+    border: 1px solid black;
+    width: 300px;
+    height: 150px; */
+}
+/* @media screen (max-width: 1280px){
+    .block{width: 1200px;}
+    width: %;
+    */
+} 
+

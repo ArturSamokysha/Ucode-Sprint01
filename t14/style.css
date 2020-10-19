@@ -1,0 +1,43 @@
+.match{
+    margin-left: 15em;
+    margin-top: 10em;        
+}
+
+
+.stick, .top, .fire{
+    position: absolute;
+}
+
+.top{
+    
+    height: 20px;
+    width: 15px;
+    border-radius: 30px;
+    top: 190px;
+    left: 247px;
+    background-color: rgb(67, 41, 24);
+    z-index: 1;
+    box-shadow: 0px -6px 5px  3px #ffffff;
+}
+
+
+.stick{
+    height: 150px;
+    width: 10px;
+    border: 1px solid rgb(199, 141, 101);
+    position: absolute;
+    background: linear-gradient(to right, rgb(126, 70, 43), rgb(212, 161, 112) );
+    top: 200px;
+}
+
+
+.fire{
+    width: 90px;
+    height: 90px;
+    border-radius: 0 50% 50% 50%;
+    left: 209px;
+    top: 120px;
+    transform: rotate(45deg);
+    background: linear-gradient(125deg , rgb(248, 60, 35) 20%, rgb(237, 204, 135));
+}
+
